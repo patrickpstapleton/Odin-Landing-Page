@@ -15,7 +15,7 @@ body {
 
 .header {
   margin: 0;
-  padding: 16px 200px;
+  padding: 16px 150px;
   background-color: #1f2937;
   display: flex;
 }
@@ -55,12 +55,20 @@ a {
   background-color: #1f2937;
   display: flex;
   justify-content: space-between;
-  padding: 100px 200px;
+  padding: 100px 150px;
 }
 
-.hero_block, .hero_img {
-  width: 600px;
+.hero_block, .hero_img  {
+  width: 450px;
   flex-shrink: 0;
+}
+
+.hero_img {
+  color: #e5e7eb;
+  background-color: #4f5c6e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero_title {
@@ -89,13 +97,14 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 100px;
 }
 
 .info_title {
   color: #1f2937;
   font-size: 36px;
   font-weight: bolder;
-  padding: 32px;
+  padding: 50px;
 }
 
 .fig_caps_row {
@@ -107,13 +116,13 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 200px;
+  width: 150px;
   gap: 8px;
 }
 
 .fig {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   flex-shrink: 0;
   border-style: solid;
   border-width: 5px;
